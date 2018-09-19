@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Puppy</title>
+</head>
+<body>
+	<h1>List a new puppy for adoption!</h1>
+	<form action="/puppy" method="POST">
+		<p>
+		<label for="name">Name: </label>
+		<input id="name" type="text" name="puppy[name]">
+		</p>
+		<p>
+		<label for="breed">Breed: </label>
+		<input id="breed" type="text" name="puppy[breed]">
+		<p>
+		<label for="age">Age: </label>
+		<input id="age" type="text" name="puppy[age]">
+		</p>
+
+		<input type="submit" name="Submit" value="submit">
+	</form>
+
+</body>
+</html>
